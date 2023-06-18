@@ -21,7 +21,7 @@ body {
     background-color: var(--light-gray);
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@ body {
 
 .box {
     max-width: 320px;
-    height: 500px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     background-color: var(--white);
@@ -43,7 +43,7 @@ body {
     margin-bottom: 20px;
 }
 
-.box-text h2 {
+.box-text h1 {
     margin-bottom: 15px;
     font-weight: 700;
     font-size: 22px;
